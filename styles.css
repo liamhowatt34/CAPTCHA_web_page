@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,7 +16,7 @@ body {
 } 
 
 .captcha-border {
-    background: azure;
+    background: rgb(225, 218, 207);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     height: 80vh;
@@ -24,9 +25,9 @@ body {
 
 .screen-box {
     align-items: center;
-    border: 1px solid black;
     display: flex;
-    height: 35%;
+    flex-direction: column;
+    height: 40%;
     justify-content: center;
 }
 
@@ -38,32 +39,58 @@ body {
     height: 60%;
     justify-content: center;
     width: 80%;
+    margin-bottom: 10px;
 }
 
 .input-box {
-    border: 1px solid black;
-    height: 65%;
+    height: 50%;
 }
 
 .input {
-    border: 1px solid black;
-    height: 40%;
+    display: flex;
+    justify-content: center;
+    height: 30%;
 }
 
 .button {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     height: 40%;
 }
 
-.message {
-    background: blueviolet;
-    border: 1px solid black;
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 20%;
+    width: 100%;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
 }
 
 .btn {
     height: 30%;
     width: 30%;
+}
+
+.regen {
+    align-self: end;
+    border: none;
+    background: none;
+    margin: 10px;
+    font-size: 14px;
 }

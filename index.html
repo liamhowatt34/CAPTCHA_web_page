@@ -9,17 +9,39 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="captcha-border">
-      <div class="screen-box"><div class="screen">CAPTCHA</div></div>
+      <div class="screen-box">
+        <div class="screen">CAPTCHA</div>
+        <button class="regen">Regenerate</button>
+      </div>
       <div class="input-box">
-        <div class="input"></div>
+        <div class="input">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter the CAPTCHA"
+            />
+          </div>
+        </div>
         <div class="button">
           <button type="button" class="btn btn-primary">Check</button>
         </div>
-        <div class="message"></div>
+        <div class="message-container">
+          <div class="message alert alert-success" role="alert">
+            A simple success alert—check it out!
+          </div>
+        </div>
       </div>
     </div>
   </body>
