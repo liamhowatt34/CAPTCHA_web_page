@@ -44,3 +44,26 @@ body {
     border: 1px solid black;
     height: 65%;
 }
+
+.input {
+    border: 1px solid black;
+    height: 40%;
+}
+
+.button {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+.message {
+    background: blueviolet;
+    border: 1px solid black;
+    height: 20%;
+}
+
+.btn {
+    height: 30%;
+    width: 30%;
+}
