@@ -7,8 +7,9 @@
 
 body {
     align-items: center;
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: #0F2027;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -16,10 +17,10 @@ body {
 } 
 
 .captcha-border {
-    background: white;
+    background: rgb(202, 208, 208);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    height: 70vh;
+    height: 60vh;
     width: 25vw;
 }
 
@@ -33,7 +34,7 @@ body {
 
 .screen {
     align-items: center;
-    background-image: url("./bg6.png");
+    background-image: url("./images/bg6.png");
     border-radius: 8px;
     border: 1px solid black;
     color: aliceblue;
@@ -43,8 +44,8 @@ body {
     height: 60%;
     justify-content: center;
     letter-spacing: 20px;
-    width: 80%;
     margin-bottom: 10px;
+    width: 80%;
 }
 
 .input-box {
@@ -53,36 +54,36 @@ body {
 
 .input {
     display: flex;
-    justify-content: center;
     height: 30%;
+    justify-content: center;
 }
 
 .button {
     display: flex;
-    justify-content: center;
     height: 60%;
+    justify-content: center;
 }
 
 .message-container {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     height: 20%;
+    justify-content: center;
     width: 100%;
 }
 
 .message {
     display: flex;
+    font-size: 18px;
     justify-content: center;
     width: 90%;
-    font-size: 18px;
 }
 
 .mb-3 {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 70%;
 }
 
@@ -93,8 +94,8 @@ body {
 
 .regen {
     align-self: end;
-    border: none;
     background: none;
+    border: none;
     font-size: 15px;
     margin: 0 30px;
 }
